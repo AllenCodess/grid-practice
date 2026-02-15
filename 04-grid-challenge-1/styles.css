@@ -1,3 +1,17 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+.item-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 3fr 4fr auto;
+  gap: 1rem;
+}
+
+.item {
+  background-color: coral;
+  border: 1px solid black;
+  padding: 1rem;
+  text-align: center;
+}
