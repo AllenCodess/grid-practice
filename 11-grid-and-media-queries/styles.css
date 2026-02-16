@@ -50,3 +50,17 @@ footer {
   padding: 20px;
   grid-column: span 2;
 }
+
+/* media queries */
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto 1fr;
+  }
+
+  header,
+  footer {
+    grid-column: span 1;
+  }
+}
